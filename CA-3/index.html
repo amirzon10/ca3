@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	  <title>JavaScript demo</title>
+	  <!-- add the link tag to the style.css which will be in a folder -->
+	  <link rel="stylesheet" href="/style/mystyle.css">
+	  
+	  <!-- used to embed client side script/JS -->
+	  </script>
+
+	  <script type="text/javascript">
+		//comment in JS
+		//add 3 examples of javascript
+		    // we create a variable to greet the user
+        	var name;
+         	name = prompt("whats your name?")
+
+        	alert("Hello, it is a pleasure to assist you" + name)
+
+		function phone_destruction(){
+			//we try to scared the user to see if they are worthy
+			var phone_name;
+         	phone_name = prompt("whats your phone\'s name?")
+			//we deceive them to think that their phone will explote
+			alert("your " + phone_name + " will explode in 5 seconds run away, don\'t look back")
+		}
+		
+		function last_test(){
+			//we tell them the situation and we ask if the are ready
+			alert("so you didn\'t run, i proud of you brave fella ,but this doesn\'t mean that you are allowed to check my page ")
+			confirm("are you ready?")
+
+			var proof;
+			proof = prompt("who is the current mexican president?")
+			// we check their answer and give them permission if they didn't do it well, they will be kick out in the future
+			if (proof == "amlo"){
+				document.write("congratulations, you are trustworthy you gained access");
+			}else{
+				Window.close();
+			}
+		 }
+	  	  
+	</head>
+	<body onload="phone_destruction()">
+		<input type="bottom" onclick="last_test()" value="touch me">
+	</body>
+</html>
